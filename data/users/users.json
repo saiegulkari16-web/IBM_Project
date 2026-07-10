@@ -1,0 +1,30 @@
+{
+  "896b04a0-72b2-47bf-97d5-516344c60f52": {
+    "id": "896b04a0-72b2-47bf-97d5-516344c60f52",
+    "username": "demo_user",
+    "email": "demo@moneymatters.ai",
+    "display_name": "Demo User",
+    "avatar_url": null,
+    "auth_provider": "email",
+    "created_at": "2026-07-08 17:23:14.193814+00:00",
+    "last_login": "2026-07-08T17:24:30.373599+00:00",
+    "is_active": true,
+    "preferences": {},
+    "password_hash": "13de1a97522db7b581d597a605a8443d57ab2056f8668e998b090897463fb593",
+    "password_salt": "5f57666b3f803150c75e14965f5bcdee"
+  },
+  "3cb4b0e3-250b-4e9b-9c90-63232e16ab0a": {
+    "id": "3cb4b0e3-250b-4e9b-9c90-63232e16ab0a",
+    "username": "Saie",
+    "email": "saiegulkari16@gmail.com",
+    "display_name": "Saie Gulkari",
+    "avatar_url": null,
+    "auth_provider": "email",
+    "created_at": "2026-07-09 09:56:17.404622+00:00",
+    "last_login": "2026-07-09 09:56:17.404627+00:00",
+    "is_active": true,
+    "preferences": {},
+    "password_hash": "73951378e2e5b3c5ec550e7ddc3a45a2437581105f68fbefc6250e6f9dd42b35",
+    "password_salt": "15555a01054268953e3f50aa4aeca440"
+  }
+}

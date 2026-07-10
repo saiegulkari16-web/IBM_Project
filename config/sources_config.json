@@ -1,0 +1,134 @@
+{
+  "_comment": "Money Matters — RAG Knowledge Base Sources Configuration",
+  "_instructions": "Add or remove sources here. The RAG system reads ONLY from this file. Never hardcode URLs in code.",
+
+  "static_sources": [
+    {
+      "id": "rbi_monetary_policy",
+      "name": "RBI Monetary Policy Reports",
+      "type": "web",
+      "url": "https://www.rbi.org.in/Scripts/MonetaryPolicy.aspx",
+      "category": "banking",
+      "refresh": "monthly",
+      "enabled": true
+    },
+    {
+      "id": "sebi_investor_education",
+      "name": "SEBI Investor Education",
+      "type": "web",
+      "url": "https://investor.sebi.gov.in",
+      "category": "investment",
+      "refresh": "monthly",
+      "enabled": true
+    },
+    {
+      "id": "npci_upi_guidelines",
+      "name": "NPCI UPI Guidelines",
+      "type": "web",
+      "url": "https://www.npci.org.in/what-we-do/upi/product-overview",
+      "category": "upi",
+      "refresh": "quarterly",
+      "enabled": true
+    },
+    {
+      "id": "income_tax_india",
+      "name": "Income Tax India",
+      "type": "web",
+      "url": "https://www.incometax.gov.in/iec/foportal",
+      "category": "tax",
+      "refresh": "annually",
+      "enabled": true
+    },
+    {
+      "id": "pmjdy_scheme",
+      "name": "Pradhan Mantri Jan Dhan Yojana",
+      "type": "web",
+      "url": "https://pmjdy.gov.in",
+      "category": "government_schemes",
+      "refresh": "quarterly",
+      "enabled": true
+    },
+    {
+      "id": "india_post_schemes",
+      "name": "India Post Savings Schemes",
+      "type": "web",
+      "url": "https://www.indiapost.gov.in/Financial/Pages/Content/PostOffice-Saving-Schemes.aspx",
+      "category": "government_schemes",
+      "refresh": "quarterly",
+      "enabled": true
+    },
+    {
+      "id": "amfi_mutual_funds",
+      "name": "AMFI Mutual Fund Education",
+      "type": "web",
+      "url": "https://www.amfiindia.com/investor-corner/knowledge-center",
+      "category": "investment",
+      "refresh": "monthly",
+      "enabled": true
+    },
+    {
+      "id": "consumer_affairs",
+      "name": "Consumer Affairs India",
+      "type": "web",
+      "url": "https://consumerhelpline.gov.in",
+      "category": "consumer_rights",
+      "refresh": "quarterly",
+      "enabled": true
+    }
+  ],
+
+  "dynamic_sources": [
+    {
+      "id": "rbi_press_releases",
+      "name": "RBI Press Releases",
+      "type": "rss",
+      "url": "https://www.rbi.org.in/scripts/rss.aspx",
+      "category": "news",
+      "refresh": "daily",
+      "enabled": true
+    },
+    {
+      "id": "sebi_circulars",
+      "name": "SEBI Latest Circulars",
+      "type": "rss",
+      "url": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecent=yes&type=1",
+      "category": "regulation",
+      "refresh": "daily",
+      "enabled": true
+    },
+    {
+      "id": "pib_finance",
+      "name": "PIB Finance Ministry Press Releases",
+      "type": "rss",
+      "url": "https://pib.gov.in/RssMain.aspx?ModID=6&Lang=1&Regid=3",
+      "category": "news",
+      "refresh": "daily",
+      "enabled": true
+    }
+  ],
+
+  "local_documents": [
+    {
+      "id": "financial_glossary",
+      "name": "Financial Terms Glossary",
+      "type": "local_pdf",
+      "path": "data/raw/financial_glossary.pdf",
+      "category": "education",
+      "enabled": true
+    }
+  ],
+
+  "categories": [
+    "banking",
+    "investment",
+    "upi",
+    "tax",
+    "government_schemes",
+    "consumer_rights",
+    "news",
+    "regulation",
+    "education",
+    "fraud_awareness",
+    "loans"
+  ]
+}

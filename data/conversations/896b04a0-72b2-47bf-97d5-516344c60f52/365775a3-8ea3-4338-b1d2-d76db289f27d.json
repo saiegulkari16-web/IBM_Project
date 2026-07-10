@@ -1,0 +1,30 @@
+{
+  "id": "365775a3-8ea3-4338-b1d2-d76db289f27d",
+  "user_id": "896b04a0-72b2-47bf-97d5-516344c60f52",
+  "title": "PPF vs ELSS — Tax Saving",
+  "messages": [
+    {
+      "id": "4e3f6566-1ae9-4bf4-bf0e-c94e5a3a5159",
+      "role": "user",
+      "content": "PPF vs ELSS for tax saving under 80C — which is better?",
+      "timestamp": "2026-07-06T15:23:14.195398Z",
+      "intent": null,
+      "sources": [],
+      "metadata": {}
+    },
+    {
+      "id": "f7934512-587e-4bea-b51b-f3e3daf317ab",
+      "role": "assistant",
+      "content": "Both PPF and ELSS qualify for **₹1.5 lakh deduction under Section 80C**. Here's the comparison:\n\n**PPF:**\n- Safe, government-backed\n- 7.1% guaranteed return\n- 15-year lock-in\n- EEE — fully tax-free\n\n**ELSS (Equity Linked Savings Scheme):**\n- Market-linked (historical ~12–15% p.a.)\n- Only 3-year lock-in (shortest among 80C instruments)\n- Long-term capital gains taxed at 10% above ₹1 lakh\n\n**Verdict:** If you can handle market risk and have a 5+ year horizon, **ELSS wins** on returns. If you want guaranteed, risk-free savings, **PPF is better**. Many advisors suggest a mix of both.\n\n*Source: SEBI Investor Education, AMFI*",
+      "timestamp": "2026-07-06T15:23:14.195398Z",
+      "intent": null,
+      "sources": [],
+      "metadata": {}
+    }
+  ],
+  "status": "active",
+  "created_at": "2026-07-08T17:23:14.201933Z",
+  "updated_at": "2026-07-08T17:23:14.202392Z",
+  "tags": [],
+  "pinned": false
+}

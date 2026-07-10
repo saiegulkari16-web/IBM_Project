@@ -1,0 +1,58 @@
+{
+  "_comment": "Money Matters — Application Configuration",
+
+  "app": {
+    "name": "Money Matters",
+    "tagline": "Smarter Money. Better Decisions.",
+    "version": "1.0.0",
+    "env": "development"
+  },
+
+  "model": {
+    "model_id": "ibm/granite-4-h-small",
+    "max_new_tokens": 1024,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "repetition_penalty": 1.1
+  },
+
+  "rag": {
+    "chunk_size": 512,
+    "chunk_overlap": 64,
+    "top_k": 5,
+    "similarity_threshold": 0.75,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+
+  "ui": {
+    "page_title": "Money Matters",
+    "page_icon": "🪙",
+    "layout": "wide",
+    "sidebar_state": "expanded",
+    "max_chat_history": 50
+  },
+
+  "auth": {
+    "enable_google_oauth": true,
+    "enable_email_auth": true,
+    "session_expiry_hours": 24
+  },
+
+  "daily_brief": {
+    "max_articles": 5,
+    "refresh_interval_hours": 24,
+    "sources": ["rbi_press_releases", "sebi_circulars", "pib_finance"]
+  },
+
+  "calculator": {
+    "available_tools": [
+      "sip_calculator",
+      "emi_calculator",
+      "fd_calculator",
+      "ppf_calculator",
+      "lumpsum_calculator",
+      "tax_calculator",
+      "loan_eligibility"
+    ]
+  }
+}

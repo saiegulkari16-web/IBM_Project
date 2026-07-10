@@ -1,0 +1,30 @@
+{
+  "id": "dbe76c45-83a4-4043-82ac-07d734936dfd",
+  "user_id": "896b04a0-72b2-47bf-97d5-516344c60f52",
+  "title": "Income Tax FY 2024-25",
+  "messages": [
+    {
+      "id": "9d65f3cd-77c3-49f5-84e1-00450e4dada1",
+      "role": "user",
+      "content": "I earn ₹12 lakh per year. Should I choose old or new tax regime?",
+      "timestamp": "2026-07-07T15:24:30.376509Z",
+      "intent": null,
+      "sources": [],
+      "metadata": {}
+    },
+    {
+      "id": "8cb5d556-3622-45f1-a2db-4d3c59dec3cf",
+      "role": "assistant",
+      "content": "At ₹12 lakh annual income, the **New Tax Regime is generally better** for FY 2024-25. Here's a quick comparison:\n\n| | Old Regime | New Regime |\n|---|---|---|\n| Standard Deduction | ₹50,000 | ₹75,000 |\n| 80C Deduction | ₹1.5 lakh | Not available |\n| Tax Payable | ~₹83,200 | **~₹52,500** |\n\nThe new regime wins unless you have very high deductions (80C + HRA + 80D together > ₹3.5 lakh).\n\n*Source: Income Tax India, Finance Act 2024*",
+      "timestamp": "2026-07-07T15:24:30.376509Z",
+      "intent": null,
+      "sources": [],
+      "metadata": {}
+    }
+  ],
+  "status": "active",
+  "created_at": "2026-07-08T17:24:30.378907Z",
+  "updated_at": "2026-07-08T17:24:30.379423Z",
+  "tags": [],
+  "pinned": false
+}
