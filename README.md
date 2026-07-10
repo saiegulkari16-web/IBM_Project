@@ -41,11 +41,9 @@ money-matters/
 ├── utils/             # Shared helpers (logger, validators, formatters)
 ├── api/               # External API wrappers
 ├── config/            # App config and sources_config.json
-├── data/
-│   ├── raw/           # Raw documents ingested for RAG
-│   ├── processed/     # Chunked, cleaned documents
+├── data/          
 │   └── embeddings/    # Stored vector embeddings
-├── scripts/           # One-time ingestion / maintenance scripts
+├── scripts/           # One-time ingestion/maintenance scripts
 ├── assets/            # Images, icons, logo
 ├── .env               # Secrets (never commit)
 ├── requirements.txt   # Python dependencies
@@ -61,7 +59,7 @@ money-matters/
 git clone https://github.com/your-username/money-matters.git
 cd money-matters
 
-# 2. Create and activate virtual environment
+# 2. Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 
